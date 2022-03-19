@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Register">
+      <class name="Exercise_Topic_04_05_Xpath_CSS.Login">
         <methods>
+          <include name="TC04_Login_with_incorrect_email_and_incorrect_password"/>
           <include name="beforeClass"/>
-          <include name="TC02_Register_with_invalid_email"/>
           <include name="afterClass"/>
-          <include name="TC01_Register_with_empty_data"/>
         </methods>
-      </class> <!-- Register -->
+      </class> <!-- Exercise_Topic_04_05_Xpath_CSS.Login -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
